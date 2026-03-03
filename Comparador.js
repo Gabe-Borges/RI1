@@ -1,7 +1,7 @@
 export function compararPersonagens(p1, p2) {
     console.log(` ---- COMBATE ENTRE PERSONAGENS: ${p1.codinome} vs ${p2.codinome} ----`);
 
-    const atributos = ['Forca', 'Agilidade', 'Resistência', 'Inteligência'];
+    const atributos = ['forca', 'agilidade', 'resistencia', 'inteligencia'];
     let pontosP1 = 0;
     let pontosP2 = 0;
 

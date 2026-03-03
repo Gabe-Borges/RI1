@@ -1,8 +1,7 @@
-import dados from "Heroi.js" with { type: "js" } 
-import { compararPersonagens } from ".Comparador.js";
+import { vingadores } from './Vingador.js'; 
 
-const listaDeHerois = dados.vingadores.map(h => {
-    return new Heroi(
+const listaDeHerois = vingadores; {
+    return new Vingador(
         h.nome, 
         h.codinome, 
         h.armaPrincipal, 
@@ -12,14 +11,14 @@ const listaDeHerois = dados.vingadores.map(h => {
         h.resistencia,
         h.inteligencia
     );
-});
+};
 
 console.log("=== INICIANDO TORNEIO DOS VINGADORES ===\n");
 
-for (let i = 0; i < listaDeHerois.length; i++) {
-    for (let j = i + 1; j < listaDeHerois.length; j++) {
-        const heroiA = listaDeHerois[i];
-        const heroiB = listaDeHerois[j];
+for (let i = 0; i < vingadores.length; i++) {
+    for (let j = i + 1; j < vingadores.length; j++) {
+        const heroiA = vingadores[i];
+        const heroiB = vingadores[j];
         
         const resultado = compararPersonagens(heroiA, heroiB);
         console.log(resultado);

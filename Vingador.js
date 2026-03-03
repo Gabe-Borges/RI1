@@ -258,3 +258,5 @@ const Thanos={
         + "Nível de inteligência: " + this.inteligencia
     } 
 }
+
+export const vingadores = [CapitaoAmerica, HomemDeFerro, Hulk, Thor, GaviaoArqueiro, ViuvaNegra, HomemAranha, PanteraNegra, Wanda, MaquinaDeCombate, Visao, Falcao, Thanos];
