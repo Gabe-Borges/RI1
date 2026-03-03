@@ -16,16 +16,16 @@ export function compararPersonagens(p1, p2) {
             console.log(`[${attr.toUpperCase()}]: ${p2.codinome} vence por +${difModulo} pontos.`);
             pontosP2+=difModulo;
         } else {
-            console.log(`[${attr.toUpperCase()}]: Empate técnico.`);
+            console.log(`[${attr.toUpperCase()}]: Empate.`);
         }
     });
 
     console.log("---- CONCLUSÃO ----");
     if (pontosP1 > pontosP2) {
-        return `Veredito: ${p1.codinome} é estrategicamente superior a ${p2.codinome}.`;
+        return `${p1.codinome} vence ${p2.codinome}.`;
     } else if (pontosP2 > pontosP1) {
-        return `Veredito: ${p2.codinome} possui vantagem competitiva sobre ${p1.codinome}.`;
+        return `${p2.codinome} vence ${p1.codinome}.`;
     } else {
-        return "Veredito: Ambos os personagens possuem níveis de poder equivalentes.";
+        return `${p1.codinome} e ${p2.codinome} empatam.`;
     }
 }

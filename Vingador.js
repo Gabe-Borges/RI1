@@ -24,8 +24,8 @@ const HomemDeFerro={
     codinome: "Homem de Ferro",
     armaPrincipal: "Feixe de luz",
     armaSecundaria: "Canhão de energia",
-    forca: 30,
-    agilidade: 50,
+    forca: 50,
+    agilidade: 70,
     resistencia: 70,
     inteligencia: 100,
     descricao: function() {
@@ -45,9 +45,9 @@ const Hulk={
     armaPrincipal: "Punhos",
     armaSecundaria: "Palmada Sônica",
     forca: 100,
-    agilidade: 40,
+    agilidade: 60,
     resistencia: 100,
-    inteligencia: 5,
+    inteligencia: 15,
     descricao: function() {
         return "Nome do personagem: " + this.nome + "\n"
         + "Codinome do Herói: " + this.codinome + "\n"
@@ -61,12 +61,12 @@ const Hulk={
 
 const Thor={
     nome: "Thor Odinson",
-    codinome: "Deus do Trovão",
+    codinome: "Thor",
     armaPrincipal: "Mjölnir",
     armaSecundaria: "Raios",
     forca: 95,
     agilidade: 60,
-    resistencia: 95,
+    resistencia: 90,
     inteligencia: 30,
     descricao: function() {
         return "Nome do personagem: " + this.nome + "\n"
@@ -164,7 +164,7 @@ const Wanda={
     codinome: "Feitiçeira Escarlate",
     armaPrincipal: "Magia do Caos",
     armaSecundaria: "",
-    forca: 90,
+    forca: 95,
     agilidade: 20,
     resistencia: 20,
     inteligencia: 50,
@@ -241,7 +241,7 @@ const Falcao={
 
 const Thanos={
     nome: "Thanos",
-    codinome: "Titã Louco",
+    codinome: "Thanos",
     armaPrincipal: "Manopla do Infinito",
     armaSecundaria: "Espada ",
     forca: 99,
@@ -258,5 +258,6 @@ const Thanos={
         + "Nível de inteligência: " + this.inteligencia
     } 
 }
+
 
 export const vingadores = [CapitaoAmerica, HomemDeFerro, Hulk, Thor, GaviaoArqueiro, ViuvaNegra, HomemAranha, PanteraNegra, Wanda, MaquinaDeCombate, Visao, Falcao, Thanos];
