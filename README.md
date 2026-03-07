@@ -11,5 +11,5 @@
 3. Abra o terminal na pasta do projeto.
 4. Execute o comando:
 ```bash
-node index.js
+node src/index.js
 ```
