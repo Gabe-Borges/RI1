@@ -6,7 +6,7 @@ const CapitaoAmerica={
     armaSecundaria: "Pistola .45 M1911",
     forca: 75,
     agilidade: 85,
-    resistencia: 80,
+    resistencia: 80, //"Posso fazer isso o dia todo!"
     inteligencia: 50,
     descricao: function() {
         return "Nome do personagem: " + this.nome + "\n"
